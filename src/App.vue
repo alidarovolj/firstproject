@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: "App",
   data() {
@@ -34,7 +36,8 @@ export default {
       counter: 0,
       inpData: null,
       test: 0,
-      items: [0,1,2,3,4,5,6,7]
+      items: [0,1,2,3,4,5,6,7],
+      jsonData: null
     }
   },
   methods: {
@@ -47,6 +50,19 @@ export default {
     decrement() {
       this.counter = this.counter - 1
     }
-  }
+  },
+  beforeCreate() {
+    console.log("beforeCreate")
+  },
+  created() {
+    console.log("created")
+  },
+  beforeMount() {
+    console.log("beforeMount")
+  },
+  async mounted() {
+    let res = await axios.get('https://jsonplaceholder.cypress.io/todos');
+    this.jsonData = res.data
+  },
 };
 </script>
