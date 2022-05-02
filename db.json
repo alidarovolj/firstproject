@@ -1,6 +1,5 @@
 {
-  "mountains": [
-    {
+  "mountains": [{
       "id": 1,
       "title": "Aconcagua",
       "description": "Aconcagua is a mountain in the Principal Cordillera of the Andes mountain range, in Mendoza Province, Argentina. It is the highest mountain in the Americas and the highest outside of Asia, being the highest in both the Southern and Western Hemispheres with a summit elevation of 6,960.8 metres.",
@@ -106,6 +105,52 @@
       "path": "/mountains/vinson-massif",
       "slug": "vinson-massif",
       "updatedAt": "2020-12-11T15:40:35.000Z"
+    }
+  ],
+  "games": [{
+      "id": 1,
+      "title": "ELDEN RING",
+      "description": "A New World Created By Hidetaka Miyazaki And George R. R. Martin. ELDEN RING, developed by FromSoftware, Inc. and BANDAI NAMCO Entertainment Inc., is a fantasy action-RPG adventure set within a world created by Hidetaka Miyazaki creator of the influential DARK SOULS video game series; and George R.R. Martin author of The New York Times best-selling fantasy series, A Song of Ice and Fire. Danger and discovery lurk around every corner in FromSoftware's largest game to-date. Hidetaka Miyazaki, President and Game Director of FromSoftware Inc. Known for directing critically-acclaimed games in beloved franchises including Armored Core, Dark Souls, and Sekiro: Shadows Die Twice. George R.R. Martin is the #1 New York Times bestselling author of many novels, including the acclaimed series A Song of Ice and Fire - A Game of Thrones, A Clash of Kings, A Storm of Swords, A Feast For Crows, and A Dance with Dragons. As a writer-producer, he has worked on The Twilight Zone, Beauty and the Beast, and various feature films and pilots that were never made",
+      "image": "https://static.metacritic.com/images/products/games/7/cf21bb68e9006d17f7b7bff4cdafe6f6-98.jpg",
+      "metascore": 96,
+      "genre": "Role-Playing, Action RPG",
+      "video": "https://mt-rv-v1.gamespot.com/vr/2022/03/04/trailer_eldenring_lore_8000.mp4"
+    },
+    {
+      "id": 2,
+      "title": "GOD OF WAR",
+      "description": "The God of War has changed... and this is not the Kratos you know. A difficult and unfamiliar road awaits as you explore a stunning retelling of a classic story. Join Kratos as he adventures through a deep and reflective journey of growth, violence and the desire to become a better man for the sake of his son. In a world of monsters, dragons and gods, the weight of responsibility rests heavy on your shoulders -- and when your life is filled with blood and chaos, how can you prevent the mistakes of the past in order to protect your future?",
+      "image": "https://static.metacritic.com/images/products/games/1/d7bc93f705395a7d9cf86e9e4e572607-98.jpg",
+      "metascore": 93,
+      "genre": "Action Adventure, Linear",
+      "video": "https://mt-rv-v1.gamespot.com/vr/2021/10/20/god_of_war_announce_trailer_8000.mp4"
+    },
+    {
+      "id": 3,
+      "title": "UNCHARTED: LEGACY OF THIEVES COLLECTION",
+      "description": "UNCHARTED: Legacy of Thieves Collection includes UNCHARTED 4: A Thief’s End and UNCHARTED: The Lost Legacy remastered for PS5™. Play as Nathan Drake and Chloe Frazer in their own standalone adventures as they are forced to confront their pasts and forge their own legacies.",
+      "image": "https://static.metacritic.com/images/products/games/7/cc80ae9984fed15d4a299abe94912286-98.jpg",
+      "metascore": 87,
+      "genre": "Miscellaneous, Compilation",
+      "video": "https://mt-rv-v1.gamespot.com/vr/2022/01/21/trailer_unchartedcollection_PS5_8000.mp4"
+    },
+    {
+      "id": 4,
+      "title": "HORIZON FORBIDDEN WEST",
+      "description": "Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats. Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon. The land is dying. Vicious storms and an unstoppable blight ravage the scattered remnants of humanity, while fearsome new machines prowl their borders. Life on Earth is hurtling towards another extinction, and no one knows why. It's up to Aloy to uncover the secrets behind these threats and restore order and balance to the world. Along the way, she must reunite with old friends, forge alliances with warring new factions and unravel the legacy of the ancient past – all the while trying to stay one step ahead of a seemingly undefeatable new enemy.",
+      "image": "https://static.metacritic.com/images/products/games/9/4cd90ac52da600eac9dfd606f5c94861-98.jpg",
+      "metascore": 88,
+      "genre": "Role-Playing, Action Adventure, Action RPG, Open-World",
+      "video": "https://mt-rv-v1.gamespot.com/vr/2021/12/16/trailer_horizonFBtrailer2_5000.mp4"
+    },
+    {
+      "id": 5,
+      "title": "CRUSADER KINGS III: CONSOLE EDITION",
+      "description": "Paradox Development Studio brings you the sequel to one of the most popular strategy games ever made. Crusader Kings III is the heir to a long legacy of historical grand strategy experiences and arrives with a host of new ways to ensure the success of your royal house.",
+      "image": "https://static.metacritic.com/images/products/games/3/4f568956f98a9959c88eac9132de80a7-98.jpg",
+      "metascore": 88,
+      "genre": "Strategy, Real-Time, General",
+      "video": "https://mt-rv-v1.gamespot.com/vr/2021/08/24/trailer_crusaderkings3_xbox_8000.mp4"
     }
   ]
 }
