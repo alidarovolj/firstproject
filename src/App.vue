@@ -13,14 +13,18 @@
 
     </div>
 
-    <div v-for="item of items" :key="item">
-      <div class="block">
-        <p class="text-green-500">Hello!</p>
-        <p>{{ item }}</p>
+    <div v-for="item of jsonData" :key="item.id">
+      <div class="block my-4">
+        <p>{{ item.title }} - {{ item.description }}</p>
       </div>
     </div>
 
     <input v-model="inpData" type="text" class="border border-black"><br>
+
+    <form class="w-1/3 block mx-auto" action="">
+      <input v-model="form.title" type="text" class="w-full p-2 bg-gray-200 rounded-xl my-3" placeholder="Enter title...">
+    </form>
+    <button @click="sendData()" class="block mx-auto bg-black text-white w-max px-3 py-2 rounded-lg">Send data</button>
 
     <button @click="increment()">+</button><p>Counter: {{ counter }}</p><button @click="decrement()">-</button>
   </div>
@@ -37,10 +41,17 @@ export default {
       inpData: null,
       test: 0,
       items: [0,1,2,3,4,5,6,7],
-      jsonData: null
+      jsonData: null,
+      form: {
+        title: null
+      }
     }
   },
   methods: {
+    async sendData() {
+      await axios.post('http://localhost:3001/mountains', { title: this.form.title })
+      console.log('Data sent')
+    },
     showAlert() {
       alert('hello World')
     },
@@ -61,7 +72,7 @@ export default {
     console.log("beforeMount")
   },
   async mounted() {
-    let res = await axios.get('https://jsonplaceholder.cypress.io/todos');
+    let res = await axios.get('http://localhost:3001/mountains');
     this.jsonData = res.data
   },
 };
