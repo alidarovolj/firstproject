@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        techonodom: "#000372"
+        main: "rgb(255, 105, 0)"
       },
       fontFamily: {
         montserrat: "'Montserrat', sans-serif",
